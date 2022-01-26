@@ -1,5 +1,10 @@
 // VARIABLES
+$primary-dark-magenta: hsl(300, 43%, 22%);
+$primary-soft-pink: hsl(333, 80%, 67%);
 
+$neutral-dark-greyish-magenta: hsl(303, 10%, 53%);
+$neutral-light-greyish-magenta: hsl(300, 24%, 96%);
+$neutral-white: hsl(0, 0%, 100%);
 
 * {
     box-sizing: border-box;
@@ -12,7 +17,4 @@ body {
     font-size: 62.5%;
 }
 
-@media screen and (min-width: 1440px) {
-    
-}
 

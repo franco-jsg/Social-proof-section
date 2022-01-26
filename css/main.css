@@ -9,4 +9,182 @@ body {
   font-family: 'Spartan', sans-serif;
   font-size: 62.5%;
 }
+
+.container {
+  width: 100%;
+  background-color: white;
+  padding: 0 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .intro {
+  width: 100%;
+  padding-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .intro__title {
+  font-size: 1.7rem;
+  color: #502050;
+  text-align: center;
+  font-weight: 800;
+  line-height: 1;
+  padding: 0 2rem;
+}
+
+.container .intro__info {
+  font-size: 0.85rem;
+  color: #937b92;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 1.2rem;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+.container .punctuation {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2rem;
+}
+
+.container .punctuation .punct-item {
+  width: 100%;
+  background-color: #f7f2f7;
+  border-radius: 5px;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .punctuation .punct-item .stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.container .punctuation .punct-item .stars img {
+  margin: 0 0.3rem;
+  width: 0.9rem;
+}
+
+.container .punctuation .punct-item h3 {
+  color: #502050;
+  text-align: center;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.container .cards {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.container .cards__item {
+  width: 100%;
+  background-color: #502050;
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .cards__item .card-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1rem;
+}
+
+.container .cards__item .card-info .person-img {
+  padding-right: 1.6rem;
+}
+
+.container .cards__item .card-info .person-img img {
+  width: 2.5rem;
+  border-radius: 2.5rem;
+}
+
+.container .cards__item .card-info .person-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .cards__item .card-info .person-info .name {
+  color: white;
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding-bottom: 0.2rem;
+}
+
+.container .cards__item .card-info .person-info .status {
+  color: #ee68a4;
+  font-size: 0.82rem;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.container .cards__item .review {
+  color: #f7f2f7;
+  font-size: 0.79rem;
+  font-weight: 300;
+  line-height: 2;
+  padding-right: 1rem;
+}
 /*# sourceMappingURL=main.css.map */
